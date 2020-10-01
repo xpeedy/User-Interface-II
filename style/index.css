@@ -1,1 +1,29 @@
 /* Add CSS styling here */
+.main-img {
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    margin: 1rem 7rem 7rem 7rem;
+    height: 25rem;
+    padding: 200px;
+
+}
+h1 {
+    font-size: 100px;
+}
+.nav-bar {
+    border: solid black;
+    height: 3rem;
+    padding: 20;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+h2 {
+    border: solid black;
+    width: 50%;
+    display: inline-block;
+    margin-top:-48px ;
+    padding: 20px;
+    font-size: 3rem;
+}
