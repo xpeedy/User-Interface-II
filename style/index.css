@@ -2,7 +2,7 @@
 .main-img {
     display: flex;
     justify-content: center;
-    border: solid black;
+    border: solid cyan;
     margin: 1rem 7rem 7rem 7rem;
     height: 25rem;
     padding: 230px;
@@ -11,10 +11,25 @@
 body {
     background: url(https://www.arcgis.com/sharing/rest/content/items/598c637205044f40997936758063a145/resources/1586392909303.jpeg?w=2687);
 }
+.main-img a {
+    font-size: 4rem;
+    text-decoration: none;
+    color: rgb(10, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-img a:hover {
+    background-color: darkcyan;
+    color: black;
+    
+}
 
 h1 {
     font-size: 130px;
     color: whitesmoke;
+    
+    
 }
 .nav-bar {
     
@@ -32,26 +47,42 @@ h1 {
 }
 .nav-bar a {
     width: 25%;
-    margin: 2px;
-    border: solid black;
+    margin: 5px;
     color: whitesmoke;
     text-decoration: none;
+}
+.nav-bar a:hover {
+    background-color: black;
+    border: solid cyan;
 }
 h2 {
     font-size: 3rem;
     color: whitesmoke;
+}
+h2:hover {
+    background-color: black;
 }
 
 .img-container {
     display: flex;
     flex-wrap: wrap;
 }
+.img-container img {
+    display: flex;
+    margin: 1rem;
+}
 .footer-button {
     display: flex;
     justify-content: center;
-    border: solid black;
+    border: solid cyan;
     padding: 20px;
-    margin: 2rem 60rem 2rem 50rem;
+    margin: 2rem 50rem 2rem 50rem;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 2rem;
 }
+.footer-button:hover {
+    background: black;
+    color: cyan;
+}
+
