@@ -47,7 +47,7 @@ h1 {
 }
 .nav-bar a {
     width: 25%;
-    margin: 5px;
+    margin: 7px;
     color: whitesmoke;
     text-decoration: none;
 }
@@ -61,16 +61,17 @@ h2 {
 }
 h2:hover {
     background-color: black;
+    color: cyan;
 }
+
 
 .img-container {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
 }
-.img-container img {
-    display: flex;
-    margin: 1rem;
-}
+    
 .footer-button {
     display: flex;
     justify-content: center;
@@ -85,4 +86,6 @@ h2:hover {
     background: black;
     color: cyan;
 }
-
+p {
+    color:white;
+}
